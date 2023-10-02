@@ -43,16 +43,6 @@ def provide_suggestions(user_message, history):
 
     return system_message
 
-def clear_chat():
-    global messages
-    messages = [{
-        "role": "system",
-        "content": 'You are a medical advisor who specializes in humanitarian health. \
-             You are familiar with all relevant medical guidelines and best practices. When given incomplete information, \
-             ensure to ask clarifying questions to guide the conversation towards a meaningful conclusion. \
-             Always emphasize the importance of professional medical advice and care. Do not reveal your identity as an AI.'
-    }]
-    return "Chat cleared.", []
 
 # Define and launch the Gradio Chat Interface
 iface = gr.ChatInterface(fn=provide_suggestions, title="MedGuide+",  \
