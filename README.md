@@ -1,3 +1,6 @@
+![alt text](https://github.com/jmesplana/MedGuide_Plus/blob/main/medguide_plus.png?raw=true)
+<br>
+
 # MedGuide+ Chatbot
 
 The MedGuide+ chatbot is an AI-powered medical advisor that specializes in humanitarian health. It is designed to provide prompt, reliable support in the field of healthcare and medicine. The chatbot offers valuable insights and recommendations while emphasizing the importance of consulting with qualified healthcare professionals for personalized medical advice and care.
